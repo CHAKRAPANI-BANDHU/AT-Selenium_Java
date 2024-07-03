@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="10" name="Test">
+      <classes>
+            <class name="com.at.testcases.Login"/>
+            <class name="com.at.testcases.Dashboard"/>
+            <class name="com.at.testcases.LogBooks"/>
+        </classes>
+    </test>
+    <test name="Dashboard Module">
+        <classes>
+            <class name="com.at.testcases.Login"/>
+            <class name="com.at.testcases.Dashboard"/>
+        </classes>
+    </test>
+    <test name="LogBooks Module">
+        <classes>
+            <class name="com.at.testcases.Login"/>
+            <class name="com.at.testcases.LogBooks"/>
+        </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
